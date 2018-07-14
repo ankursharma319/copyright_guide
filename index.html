@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Interactive Guide</title>
+		
+		<!--------------------------CSS/ FONT ASSETS------------------------->
+		<link rel="stylesheet" type="text/css" href="CSS/mainStyle.css">
+		<!------------------------------------------------------------------->		
+		
+		<!----------------------------JAVASCRIPT ASSETS---------------------->
+		<script src="./JavaScript/libs/jquery.js"></script>		
+		<script src="./JavaScript/libs/kinetic.js"></script>
+		<script src="./JavaScript/mainScript.js"></script>
+		<!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+		<!-------------------------------------------------------------------->
+	</head>
+
+	<body>
+	<div id="wrap">	
+	
+	<span id="sound">
+		<audio id="music">
+			<!--<source src="./Audio/scene0.ogg" type="audio/ogg"/>-->
+			<!--<source src="./Audio/scene1.wav" type="audio/wave"/>-->
+			<source src="./Audio/CoolRide.mp3" type="audio/mp3"/>
+		</audio>
+	</span>
+	
+		<div class="upper">
+			<div id="heading1">Copyright Interactive Guide</div>
+			<div id="time"></div>
+		</div>
+		<div class="content">
+			<div id="container" width="1024" height="550"></div>
+			<!--<canvas id="myCanvas" width="1024" height="550">Get support for canvas- go and get Chrome dude!</canvas>-->		
+		</div>
+		
+		<footer>
+			Ankur Sharma - Copyright &#169; 2013
+			<img src="./Images/cc_2.png" height="10%" width="10%">
+		</footer>
+	</div>
+	</body>
+</html>
+
+<script>
+	/*function playSound(soundfile) 
+	{
+		document.getElementById("sound").innerHTML= "<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+	}*/
+</script>
+
+<!----------------OTHER STUFF----------------------------------
+Libraries: FabricJS, RGraph, PaperJS, KineticJS, oCanvas,
+../ go back
+./ 
+
+http://incompetech.com/music/royalty-free/
+-------------------------------------------------------------->
